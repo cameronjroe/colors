@@ -1,0 +1,16 @@
+{
+  "name": "colors",
+  "version": "0.1.0",
+  "description": "Color generator.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "rm -rf ./dist; mkdir -p ./dist/lib && babel ./src --out-dir ./dist && cp ./src/lib/*.json ./dist/lib",
+    "test": "mocha --compilers js:babel/register"
+  },
+  "author": "Cameron J Roe <cameronjroe@gmail.com> (http://cameronjroe.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^5.5.8",
+    "chai": "^3.0.0"
+  }
+}
