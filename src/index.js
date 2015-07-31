@@ -1,16 +1,6 @@
-import data from './lib/colors.json';
-
-var colors = {
-
-  data: data.more,
-
-  *colorGen() {
-    var colors = this.data.split(',');
-    for(let color of colors) {
-      yield color;
-    }
+export default function* () {
+  while(true) {
+    // yield a random color
+    yield '#'+Math.floor(Math.random()*16777215).toString(16);
   }
-  
 };
-
-export default colors;

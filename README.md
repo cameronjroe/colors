@@ -1,19 +1,18 @@
 # colors
 
-> Color generator.
+> Infinite random color generator.
 
-Yield colors from a simple generator.
+Yield random colors infinitely.
 
 ## Usage
-
-![](colors.png);
 
 ```js
 import colors from 'colors';
 
-var gen = colors.colorGen();
+var gen = colors();
 
 var color1 = gen.next();
 var color2 = gen.next();
+...
 
 ```

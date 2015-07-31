@@ -9,7 +9,7 @@ describe("colors", function() {
 
   it("should yield different colors", function() {
     
-    var colorGen = colors.colorGen();
+    var colorGen = colors();
 
     var color1 = colorGen.next();
     var color2 = colorGen.next();

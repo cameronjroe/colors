@@ -4,7 +4,7 @@
   "description": "Color generator.",
   "main": "./dist/index.js",
   "scripts": {
-    "build": "rm -rf ./dist; mkdir -p ./dist/lib && babel ./src --out-dir ./dist && cp ./src/lib/*.json ./dist/lib",
+    "build": "rm -rf ./dist; babel ./src --out-dir ./dist",
     "test": "mocha --compilers js:babel/register"
   },
   "author": "Cameron J Roe <cameronjroe@gmail.com> (http://cameronjroe.com/)",
