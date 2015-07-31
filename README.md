@@ -2,7 +2,7 @@
 
 > Infinite random color generator.
 
-Yield random colors infinitely.
+Yield random colors (hex codes) infinitely.
 
 ## Usage
 
